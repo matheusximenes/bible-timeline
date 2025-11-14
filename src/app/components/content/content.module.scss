@@ -6,8 +6,12 @@
 }
 
 .header {
-	position: sticky;
+	position: fixed;
+	width: inherit;
+	box-sizing: border-box;
 	top: 0;
+	left: 0;
+	right: 0;
 	z-index: 999;
 	display: flex;
 	flex-direction: row;
@@ -87,7 +91,8 @@ ul.eventList {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	margin: 10px 50px;
+	margin: 50px 50px 10px 50px;
 	height: inherit;
+	width: inherit;
 	padding: 20px 0;
 }
